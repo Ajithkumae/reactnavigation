@@ -10,7 +10,7 @@ export default class Home extends Component {
 
   render() {
     return (
-      <View >
+      <View style={styles.continer} >
         <Text> Home </Text>
       </View>
     );
@@ -21,7 +21,7 @@ const styles=StyleSheet.create({
 
     continer:{
         justifyContent:'center',
-        alignContent:"center",
+        alignItems:'center',
         flex:1
     }
 })

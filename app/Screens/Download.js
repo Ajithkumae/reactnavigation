@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { View, Text ,StyleSheet} from 'react-native';
+import { View, Text ,StyleSheet } from 'react-native';
 
-export default class Allpage extends Component {
+export default class Download extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -10,12 +10,13 @@ export default class Allpage extends Component {
 
   render() {
     return (
-      <View>
-        <Text> Allpage </Text>
+      <View style={styles.continer}>
+        <Text> Download </Text>
       </View>
     );
   }
 }
+
 const styles=StyleSheet.create({
 
     continer:{

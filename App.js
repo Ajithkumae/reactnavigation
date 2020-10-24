@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Mainstack } from './app/Router/router';
+import { Mainstack,Stack } from './app/Router/router';
 import { NavigationContainer } from '@react-navigation/native';
 export default class App extends Component {
 
@@ -7,6 +7,7 @@ export default class App extends Component {
     return (
       <NavigationContainer>
         <Mainstack/>
+{/* <Stack/> */}
       </NavigationContainer>
     );
   }
